@@ -1,0 +1,23 @@
+{% extends 'bootstrap/base.html'%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> World Radio </title>
+        {% endif %}
+    </head>
+    <body>
+        <!-- Navbar block  --> 
+        {% block navbar %}
+        
+        {% endblock %}
+        <!-- Content block -->
+
+        {% block content %}
+
+        {% endblock%}
+    </body>
+</html>
